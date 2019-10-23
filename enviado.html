@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Correo Enviado</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="/js/menu.js"></script>
+
+    <script defer src="https://use.fontawesome.com/releases/v5.6.3/js/all.js" integrity="sha384-EIHISlAOj4zgYieurP0SdoiBYfGJKkgWedPHH4jCzpCXLmzVsw1ouK59MuUtP4a1" crossorigin="anonymous"></script>
+</head>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#principal{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('/imagenes/fondoSlider.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#principal p{
+    text-align: center;
+    margin-bottom: 12px;
+    color: #363636;
+    font-family: 'Quicksand', sans-serif;
+}
+#principal > a{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    color: #AE84FD;
+    font-weight: 600;
+    transition-duration: 0.5s;
+}
+#principal a:hover{
+    color: #fff;
+}
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117135000-5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-117135000-5');
+  gtag('config', 'AW-809126505');
+</script>
+
+<!-- Event snippet for Formulario email conversion page -->
+<script>
+  gtag('event', 'conversion', {'send_to': 'AW-809126505/9VkkCLicl6IBEOmU6YED'});
+</script>
+
+
+<body>
+    <main id="principal">
+            <header id="header">           
+                    <div class="contenedorHeader headerInicial">
+                        <div class="contenidoHeader">
+                        <div id="contenedorLogo">
+                            <h1><a style="text-decoration:none;color:#fff;" href="index.html"><img src="/imagenes/aviLogo.svg" alt="Logo avi veterinaria"></a></h1>
+                        </div>
+                        <div class="menu">
+                            <button id="menuAbrir"><i class="fas fa-bars"></i></button>
+                            <div class="contenedorMenu contenedorMenuInicial" id="contenedorMenu">
+                            <div class="tituloMenu">
+                                <button id="cerrarMenu">
+                                    <i class="fas fa-times"></i>
+                                </button>
+                                <h1><a href="#">Menu</a></h1>
+                            </div>
+                            
+                            <nav>
+                                <ul>
+                                    <li id="btnInicio"class="opcionMenu" id="btnActivo"><a href="index#anclaInicio" class="siteActive">Inicio</a></li>
+                                    <li id="btnServicios"class="opcionMenu"><a href="index.html#anclaServicios">Servicios</a></li>
+                                    <li id="btnPet"class="opcionMenu"><a href="index#anclaPetShop">Pet shop</a></li>
+                                    <li id="btnVideos"class="opcionMenu"><a id="videosEnlace" href="index#anclaYoutubeE">Videos</a></li>
+                                    <!-- <li id="btnVideosM"class="opcionMenu"><a href="#YoutubeM">Videos</a></li> -->
+                                    <li id="btnContacto"class="opcionMenu"><a href="index#anclaContacto">Contacto</a></li>
+                                    <li id="ultimaLineaHeader"><a href="https://www.instagram.com/aviveterinaria/" id="igHeader"><i class="fab fa-instagram"></i></a> <a id="phoneHeader" href="tel:4703-2634"><span id="spanTelefonoHeader"><i class="fas fa-phone"></i></span><span>4703-2634</span></a></li>
+                                </ul>
+                            </nav>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </header>
+        <p>Gracias! su correo se envio correctamente, estareamos respondiendo a la brevedad. <br>Podes seguir navegando en 
+        nuestro sitio web</p>
+        <a href="index.html">Volver</a>
+    </main>
+</body>
+</html>

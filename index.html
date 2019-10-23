@@ -1,0 +1,1574 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Avi Veterinaria</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <meta name="description" content="Servicios de consulta, clínica medica, vacunas, Análisis Clínicos, 
+    cirugía, ecografías, baño/corte y mucho mas! ESCRIBINOS POR WHATSAPP 1136058556 !  
+    ">
+    <meta name="keywords" content="Veterinaria, Avi Veterinaria, veterinaria perros, veterinaria gatos, veterinaria saavedra, veterinaria Belgrano, 
+    veterinaria Nuñez, comdia para perros, comida para gatos, pet shop, veterinaria capital federal, Certificado de Salud para viaje al exterior, acupuntura veterinaria,
+    Colocación de microchip de identificación, radiografias veterinaria
+    ">
+    
+    <script>
+    new WOW().init();
+    </script>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117135000-5"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-117135000-5');
+    gtag('config', 'AW-809126505');
+    </script>
+    <script>
+      gtag('config', 'AW-809126505/mdQQCMq6l6IBEOmU6YED', {
+        'phone_conversion_number': '47032634'
+      });
+    </script>
+
+
+
+<script>
+    $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+    
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+    
+          // Store hash
+          var hash = this.hash;
+    
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+    
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+    </script>
+
+</head>
+<body>  
+        <!--<div id="preloader">
+            <div id="loader"></div>
+        </div>-->
+        <div id="contactoWhatsapp">
+            <img src="/imagenes/logo-wpp.png" alt="">
+            <img src="/imagenes/icon1-2.png" alt="">
+            <a href="whatsapp.html"></a>
+        </div>
+
+        <div id="reproductor" class="reproductorInactivo">
+            <div class="contenedorReproductor">
+                <div class="botoneraReproductor">
+                    <div class="botonesControlReproductor">
+                        <button id="videoAnterior"><i class="fas fa-backward"></i></button>
+                        <button id="videoSiguiente"><i class="fas fa-forward"></i></button>
+                    </div>
+                    <button id="salirVideo">Salir</button>
+                </div>
+                <div class="ventanaReproductor">
+                    <iframe id="videoPrincipal" width="auto" height="auto" src="https://www.youtube.com/embed/HryV4awby-k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>sadasd</iframe>
+                </div>
+            </div>
+        </div>
+
+    <div id="principal">
+        <header id="header">           
+            <div class="contenedorHeader headerInicial">
+                <div class="contenidoHeader">
+                <div id="contenedorLogo">
+                    <h1><a style="text-decoration:none;color:#fff;" href="index.html"><img src="/imagenes/aviLogo.svg" alt="Logo avi veterinaria"></a></h1>
+                </div>
+                <div class="menu">
+                    <button id="menuAbrir"><i class="fas fa-bars"></i></button>
+                    <div class="contenedorMenu contenedorMenuInicial" id="contenedorMenu">
+                    <div class="tituloMenu">
+                        <button id="cerrarMenu">
+                            <i class="fas fa-times"></i>
+                        </button>
+                        <h1><a href="#">Menu</a></h1>
+                    </div>
+                    
+                    <nav>
+                        <ul>
+                            <li id="btnInicio"class="opcionMenu" id="btnActivo"><a href="#anclaInicio" class="siteActive">Inicio</a></li>
+                            <li id="btnServicios"class="opcionMenu"><a href="#anclaServicios">Servicios</a></li>
+                            <li id="btnPet"class="opcionMenu"><a href="#anclaPetShop">Pet shop</a></li>
+                            <li id="btnVideos"class="opcionMenu"><a id="videosEnlace" href="#anclaYoutubeE">Videos</a></li>
+                            <!-- <li id="btnVideosM"class="opcionMenu"><a href="#YoutubeM">Videos</a></li> -->
+                            <li id="btnContacto"class="opcionMenu"><a href="#anclaContacto">Contacto</a></li>
+                            <li id="ultimaLineaHeader"><a href="https://www.instagram.com/aviveterinaria/" id="igHeader"><i class="fab fa-instagram"></i></a> <a id="phoneHeader" href="tel:4703-2634"><span id="spanTelefonoHeader"><i class="fas fa-phone"></i></span><span>4703-2634</span></a></li>
+                        </ul>
+                    </nav>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </header>
+        
+        <div class="sliderPrincipal">
+            <div class="contenedorSlider">
+                <div class="burbujaSlider">
+                    <!-- <img id="imgBurbuja1" class="burbujaActiva" src="/imagenes/Enmascarar grupo 6.png" alt=""> -->
+                    <picture>
+                        <!-- <source media="(min-width: 650px)" srcset="img_pink_flowers.jpg"> -->
+                        <source media="(min-width: 650px)" srcset="/imagenes/enmascarargrupo6.png">
+                        <img id="imgBurbuja1" class="burbujaActiva" src="/imagenes/burbujaM3.png" alt="Foto avi veterinaria">
+                    </picture>
+                </div>
+                <div class="burbujaSlider">
+                    <!-- <img id="imgBurbuja2" class="burbujaInactiva" src="/imagenes/Enmascarar grupo 7.png" alt=""> -->
+                    <picture>
+                        <!-- <source media="(min-width: 650px)" srcset="img_pink_flowers.jpg"> -->
+                        <source media="(min-width: 650px)" srcset="/imagenes/enmascarargrupo7.png">
+                        <img id="imgBurbuja2" class="burbujaInactiva" src="/imagenes/burbujaM4.png" alt="Foto avi veterinaria">
+                    </picture>
+                </div>
+                <div class="burbujaSlider">
+                    <!-- <img id="imgBurbuja3" class="burbujaInactiva" src="/imagenes/Enmascarar grupo 5.png" alt=""> -->
+                    <picture>
+                        <!-- <source media="(min-width: 650px)" srcset="img_pink_flowers.jpg"> -->
+                        <source media="(min-width: 650px)" srcset="/imagenes/enmascarargrupo5.png">
+                        <img id="imgBurbuja3" class="burbujaInactiva" src="/imagenes/burbujaM2.png" alt="Foto avi veterinaria">
+                    </picture>
+                </div>
+                <div class="burbujaSlider">
+                    <!-- <img id="imgBurbuja4" class="burbujaInactiva" src="/imagenes/enmascarar1.png" alt=""> -->
+                    <picture>
+                        <!-- <source media="(min-width: 650px)" srcset="img_pink_flowers.jpg"> -->
+                        <source media="(min-width: 650px)" srcset="/imagenes/enmascarar1.png">
+                        <img id="imgBurbuja4" class="burbujaInactiva" src="/imagenes/burbujaM1.png" alt="Foto avi veterinaria">
+                    </picture>
+                </div>
+                <div class="subcontenedorSlider">
+                    <div class="textSlider wow slideInLeft" data-wow-duration="1s">
+                        <h2>
+                            AVI Veterinaria<br> Atención integral
+                        </h2>
+                        <p>
+                            CENTRO MÉDICO VETERINARIO CON LA MEJOR ATENCIÓN PARA TU MASCOTA.
+                        </p>
+                    </div>
+                    <ul class="iconosSlider wow slideInLeft" data-wow-duration="1s">
+                        <li><span><i class="fas fa-heartbeat"></i></span></li>
+                        <li><span><i class="fas fa-medkit"></i></span></li>
+                        <li><span><i class="fas fa-stethoscope"></i></span></li>
+                    </ul>
+                </div>
+                <div class="animalesSlider wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">
+                    <img src="/imagenes/animalesSlider.png" alt="">
+                </div>
+                <img id="ondaSlider" src="/imagenes/ondaBlanca.png" alt="">
+            </div>
+        </div>
+
+        <main>
+            <section class="info wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.5s">
+                <article class="subContenedorInfo">
+                    <div class="contenedorInfo">
+                        <span id="iconoCalendario"><i class="far fa-calendar-check"></i></span>
+                        <h2>¿Queres pedir un turno?</h2>
+                        <p>
+                            Podes reservar un turno para todas nuestras especialidades via whatsapp, telefono o e-mail
+                        </p>
+                        <button><a href="#anclaContacto">Contactanos</a></button>
+                    </div>
+                    <div class="contenedorInfo">
+                        <span id="iconoReloj"><i class="far fa-clock"></i></span>
+                        <h2>Horarios abierto</h2>
+                        <p>
+                            <span>Lunes a Viernes</span><br>
+                            <span>9:00 a 13:00 hs - 16:00 a 20:00 hs.</span><br>
+                            <span>Sábados de 10:00 a 18:00 hs</span>
+                        </p>
+                        
+                        <button><a href="#anclaContacto">Contactanos</a></button>
+                    </div>
+                    <div class="contenedorInfo">
+                        <span id="numeroTelefono">11 3605-8556</span>
+                        <h2>Emergencias</h2>
+                        <p>
+                            Ante una situación de emergencia fuera del horario 
+                            de atención de la veterinaria contactarse a nuestro celular.
+                        </p>
+                        <button><a href="#anclaContacto">Contactanos</a></button>     
+                    </div>
+                </article>
+            </section>
+
+            <section id="objetivos" class="objetivos">
+                <span id="anclaInicio"></span>
+                <article class="subContenedorObjetivos">
+                    <div class="imagenesObjetivos">
+                        <img id="elip1" src="/imagenes/elip1.png" alt="">
+                        <img id="elip2" src="/imagenes/elip2.png" alt="">
+                        <img id="elip3" src="/imagenes/elip3.png" alt="" class="wow fadeIn" data-wow-duration="1s">
+                        <img id="elip4" src="/imagenes/2.png" alt="" class="wow fadeIn" data-wow-duration="1s">
+                    </div>
+                    <div class="textoObjetivos wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s">
+                        <div class="texto1Objetivos">
+                            <h3>Nuestro <strong>Objetivo</strong></h3>
+                            <p>
+                                Somos un centro Médico Veterinario ubicado en la zona de Saavedra con una alta concurrencia de 
+                                nuestros barrios vecinos, Belgrano, Nuñez y Coghlan.
+                                Prestamos un servicio de atención clínica que cuenta con 
+                                consultorios modernamente equipados y un plantel de médicos clínicos con 
+                                vocación y experiencia, expertos en el cuidado de su mascota.                                    
+                            </p>
+                            <p>
+                                Trabajamos día a día para brindar una medicina veterinaria de excelencia 
+                                enfocada en mejorar la calidad de vida de su mascota.
+                            </p>
+                        </div>
+                        <div class="botoneraObjetivos">
+                            <div id="opcionBotonera1" class="opcionBotonera btnObjetivosActivo">
+                                <button id='btnObjetivos1'><span id="arrowObjetivo1" class="arrowActivo"><i class="fas fa-chevron-down"></i></span><span>Veterinaria</span></button>
+                                <p>
+                                    Veterinaria enfocada al cuidado y tratamiento de Perros y Gatos.
+                                    Contamos con cirugía general y especializada, así como también homeopatía 
+                                    y acupuntura, entre otros.
+                                </p>
+                            </div>
+                            <div id="opcionBotonera2" class="opcionBotonera btnObjetivosInactivo">
+                                <button id='btnObjetivos2'><span id="arrowObjetivo2" class="arrowInactivo"><i class="fas fa-chevron-down"></i></span><span>Pet Shop</span></button>
+                                <p>
+                                    En nuestro Pet shop recomendamos y trabajamos con las mejores marcas de alimento balanceado para Perros y Gatos.
+                                    También con un amplio repertorio en juguetes y accesorios para tu mascota, ropa, cuchas, rascadores para gatos, anti pulgas y mucho mas.
+                                </p>
+                            </div>
+                            <div id="opcionBotonera3" class="opcionBotonera btnObjetivosInactivo">
+                                <button id='btnObjetivos3'><span id="arrowObjetivo3" class="arrowInactivo"><i class="fas fa-chevron-down"></i></span><span>Urgencias</span></button>
+                                <p>
+                                    Contamos con un servicio de atención de emergencias, podes comunicarte con nosotros fuera del horario
+                                    de atención de la veterinaria al siguiente numero: 11 3605-8556
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <section class="servicios" id="servicios">
+                <span id="anclaServicios"></span>
+                <h2>Ofrecemos los siguientes servicios</h2>
+                <article class="subContenedorServicios">
+                    <div class="boxSlideServicios" id="slideServicios">
+                        <div class="boxSlide">
+                            <div class="cajaServicios">
+                                    <div class="servicio">
+                                        <h3>Clínica Médica</h3>
+                                        <p>
+                                            Consulta medica general, problemas de piel,
+                                            perros y/o gatos con sintomas de vomitos y diarrea.
+                                            Dermatogología, neurología, gastroenterelogia, oftalmología y
+                                            cardilogía.
+                                        </p>
+                                    </div>
+                                    <div class="servicio">
+                                        <h3>Homeopatía</h3>
+                                        <p>
+                                            Tratamiento para mascotas con problemas de
+                                            conducta, miedos, problemas de piel.
+                                        </p>
+                                    </div>
+                                    <div class="servicio">
+                                        <h3>Cirugía</h3>
+                                        <p>
+                                            Cirugia general, castraciones de perros y gatos.
+                                            Ortopedia y traumatologia veterinaria.
+                                        </p>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="boxSlide">
+                            <div class="cajaServicios">
+                                    <div class="servicio">
+                                        <h3>Análisis Clínicos</h3>
+                                        <p>
+                                            Realizamos análisis prequirúrgicos.<br>
+                                            Análisis de materia fecal, orina y muestras
+                                            sanguineas.
+                                        </p>
+                                    </div>
+                                    <div class="servicio">
+                                        <h3>Vacunas</h3>
+                                        <p>
+                                            <!-- Plan de vacunación para perros y gatos.<br>
+                                            Vacunas desparasitantes y contra tos de las perreras. -->
+
+                                            Plan de vacunación para cachorros y adultos.
+                                            Quintuple, sextuple, leptospirosis, tos de las perreras, 
+                                            antirrabica, triple felina, leucemia felina.
+
+                                        </p>
+                                    </div>
+                                    <div class="servicio">
+                                        <h3>Radiografías</h3>
+                                        <p>
+                                            Realizamos radiografias los dias miercoles y viernes
+                                            por la mañana. Por favor solicitar turno previamente.
+                                        </p>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="boxSlide">
+                            <div class="cajaServicios">
+                                    <div class="servicio">
+                                        <h3>Ecografías</h3>
+                                        <p>
+                                            Diagnostico por imagenes a perros y gatos mediante 
+                                            análisis no invasivo y sin sedantes.
+                                        </p>
+                                    </div>
+                                    <div class="servicio">
+                                        <h3>Colocación de microchip de identificación</h3>
+                                        <p>
+                                            Chip de identificación, obligatorio para viajes a Uruguay, Estados Unidos
+                                            y Europa.
+                                        </p>
+                                    </div>
+                                    <div class="servicio">
+                                        <h3>Certificado de Salud para viaje al exterior</h3>
+                                        <p>
+                                            Si planea viajar fuera del país con su mascota es obligatorio contar 
+                                            con esta documentación.
+                                            
+                                        </p>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="boxSlide">
+                            <div class="cajaServicios">
+                                    <div class="servicio">
+                                        <h3>Acupuntura</h3>
+                                        <p>
+                                            Tratamiento para dolores y problemas de movilidad, por lo general
+                                            se realiza en pacientes de edad avanzada.
+                                        </p>
+                                    </div>
+                                    <div class="servicio">
+                                        <h3>Pet shop </h3>
+                                        <p>
+                                            Alimento balanceado para perros y gatos, juguetes y accesorios, 
+                                            rascadores para gatos, piedritas sanitarias ¡y mucho mas!
+                                        </p>
+                                    </div>
+                                    <div class="servicio">
+                                        <h3>Baño y Corte</h3>
+                                        <p>
+                                            Realizamos baños y cortes para mascotas con turno previo, cortes de raza y baños medicados.
+                                        </p>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="botoneraServicios">
+                        <button id="btnServiciosIzq"><i class="fas fa-chevron-circle-left"></i></button>
+                        <button id="btnServiciosDer"><i class="fas fa-chevron-circle-right"></i></button>
+                    </div>
+                </article>
+            </section>
+
+            <section class="petshop" id="petshop">
+                <span id="anclaPetShop"></span>
+                <h2>Pet Shop</h2>
+                <p>Trabajamos con las mejores marcas en productos para tus mascotas</p>
+                <article class="subContenedorPetShop">
+                    <div class="boxSlidePetShop">
+                        <div class="contenedorCajaPetShop">
+                            <div class="cajaPetShop">
+                                <div class="imagenesPetShop">
+                                    <img class="elipShop1" src="/imagenes/elipShop1.png" alt="">
+                                    <img class="elipShop2" src="/imagenes/elipShop2.png" alt="">
+                                    <img class="productoShop" src="/imagenes/accesorios.png" alt="">
+                                </div>
+                                <h3>Accesorios</h3>
+                            </div>
+                        </div>
+
+                        <div class="contenedorCajaPetShop">
+                            <div class="cajaPetShop">
+                                <div class="imagenesPetShop">
+                                    <img class="elipShop1" src="/imagenes/elipShop1.png" alt="">
+                                    <img class="elipShop2" src="/imagenes/elipShop2.png" alt="">
+                                    <img class="productoShop" src="/imagenes/alimento.png" alt="">
+                                </div>
+                                <h3>Alimentos</h3>
+                            </div>
+                        </div>
+
+                        <div class="contenedorCajaPetShop">
+                            <div class="cajaPetShop">
+                                <div class="imagenesPetShop">
+                                    <img class="elipShop1" src="/imagenes/elipShop1.png" alt="">
+                                    <img class="elipShop2" src="/imagenes/elipShop2.png" alt="">
+                                    <img class="productoShop" src="/imagenes/blister.png" alt="">
+                                </div>
+                                <h3>Farmacia Veterinaria</h3>
+                            </div>
+                        </div>                        
+                    </div>
+                    <div class="botoneraPetShop">
+                        <button id="btnShopIzq"><i class="fas fa-chevron-circle-left"></i></button>
+                        <button id="btnShopDer"><i class="fas fa-chevron-circle-right"></i></button>
+                    </div>
+                </article>
+            </section>
+
+            <section class="marcas">
+
+            </section>
+
+            <section class="faq">
+                <article class="contenedorFaq">
+                    <div class="faqIzq">
+                        <h2><strong>Consultas</strong> Frecuentes</h2>
+                        <p>
+                            Podes mandarnos tus consultas cuando quieras ya sea por teléfono
+                            vía email o en cualquiera de nuestras redes sociales y te responderemos
+                            siempre.
+                        </p>
+                        <button class="contactoFaq"><a href="#anclaContacto" style="color:#fff; text-decoration: none;">Contactanos</a></button>
+                    </div>
+                    <div class="faqDer">
+                        <div id="contenedorFaq1" class="filaFaq filaFaqActivo">
+                            <button id="btnFaq1"><p>¿Cómo pido un turno?</p> <span id="arrowFaq1" class="arrowActivo"><i class="fas fa-chevron-down"></i></span></button>
+                            <p>
+                                    Podes reservar un turno o realizar consultas vía e-mail, llamadas al 4703-2634, o 
+                                    enviarnos un whatsapp al 11 3605-8556.
+                                    También podes acercarte a la veterinaria para realizar una consulta sin turno previo.
+                                    Servicios que requieren turno previo, ecografía, radiografía, homeopatía, acupuntura, especialidades medicas.    
+ 
+                            </p>
+                        </div>
+                        <div id="contenedorFaq2" class="filaFaq filaFaqInactivo">
+                            <button id="btnFaq2"><p>¿Cómo funciona su sistema de urgencias?</p> <span id="arrowFaq2" class="arrowInactivo"><i class="fas fa-chevron-down"></i></span></button>
+                            <p>
+                                Ante una situación de emergencia fuera del horario de atención de la veterinaria, 
+                                por favor ponerse en contacto al número de celular antes mencionado. La veterinaria 
+                                no cuenta con una guardia de 24hs, pero podemos orientar y/o coordinar una visita al 
+                                paciente. En caso de ser necesario se derivará a una clínica veterinaria con guardia de 
+                                24hs.
+                            </p>
+                        </div>
+                        <div id="contenedorFaq3" class="filaFaq filaFaqInactivo">
+                            <button id="btnFaq3"><p>Mi mascota esta con vomitos y/o diarrea</p> <span id="arrowFaq3" class="arrowInactivo"><i class="fas fa-chevron-down"></i></span></button>
+                            <p>
+                                Es importante que consulte de inmediato con un veterinario en caso de la aparición de 
+                                sangre en vómitos y diarrea, si los vómitos continúan aun sin ingerir alimentos. 
+                                Si puede observar que su mascota tiene fiebre o temblores también se debe consultar 
+                                de inmediato con un veterinario.
+                                   
+                            </p>
+                        </div>
+                        <div id="contenedorFaq4" class="filaFaq filaFaqInactivo">
+                            <button id="btnFaq4"><p>Zonas de atención</p> <span id="arrowFaq4" class="arrowInactivo"><i class="fas fa-chevron-down"></i></span></button>
+                            <p>
+                                El consultorio se encuentra en el barrio de Saavedra, en medio de Nuñez, Belgrano y Coghlan.
+                            Realizamos consultas veterinarias a domicilio y envió de los productos de nuestro Pet Shop.
+
+                            </p>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <section class="instagramMovil">
+                <h2>Seguinos en Instagram</h2>
+                <article class="contenedorInstagramMovil">
+                    <div class="botoneraInstagramMovil">
+                        <button id="btnInIzq"><i class="fas fa-chevron-circle-left"></i></button>
+                        <button id="btnInDer"><i class="fas fa-chevron-circle-right"></i></button>
+                    </div>
+                    <div class="subContenedorInstagramMovil">
+                        <div class="contenedorCajaInstagramMovil">
+                            <div class="cajaInstagramMovile">
+                                <div class="primerLineaInstagram">
+                                    <img src="/imagenes/imgPerfil.png" alt="">
+                                    <span>aviveterinaria</span>
+                                </div>
+                                <a href="https://www.instagram.com/p/BqZjl8pBFoB/"><img src="/imagenes/post1.png" alt=""></a>
+                                <div class="segundaLineaInstagram">
+                                    <p><strong>aviveterinaria</strong>👉🏻 Se terminó el finde largo y nos volvemos a reencontrar 😄</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contenedorCajaInstagramMovil">
+                            <div class="cajaInstagramMovile">
+                                <div class="primerLineaInstagram">
+                                    <img src="/imagenes/imgPerfil.png" alt="">
+                                    <span>aviveterinaria</span>
+                                </div>
+                                <a href="https://www.instagram.com/p/BtV2XxhBSqi/"><img src="/imagenes/post2.png" alt=""></a>
+                                <div class="segundaLineaInstagram">
+                                    <p><strong>aviveterinaria</strong> Manchita cuando nos visita 🐱❤️</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contenedorCajaInstagramMovil">
+                            <div class="cajaInstagramMovile">
+                                <div class="primerLineaInstagram">
+                                    <img src="/imagenes/imgPerfil.png" alt="">
+                                    <span>aviveterinaria</span>
+                                </div>
+                                <a href="https://www.instagram.com/p/BjHpFI2l4S_/"><img src="/imagenes/post3.png" alt=""></a>
+                                <div class="segundaLineaInstagram">
+                                    <p><strong>aviveterinaria</strong> ¡Esas visitas que nos hacen felices 
+                                        todos los días! 😍😍😍</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contenedorCajaInstagramMovil">
+                            <div class="cajaInstagramMovile">
+                                <div class="primerLineaInstagram">
+                                    <img src="/imagenes/imgPerfil.png" alt="">
+                                    <span>aviveterinaria</span>
+                                </div>
+                                <a href="https://www.instagram.com/p/BxfQRCwByiP/"><img src="/imagenes/post4.png" alt=""></a>
+                                <div class="segundaLineaInstagram">
+                                    <p><strong>aviveterinaria</strong>¡Hoy vino Charly a visitarnos! 😻</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contenedorCajaInstagramMovil">
+                            <div class="cajaInstagramMovile">
+                                <div class="primerLineaInstagram">
+                                    <img src="/imagenes/imgPerfil.png" alt="">
+                                    <span>aviveterinaria</span>
+                                </div>
+                                <a href="https://www.instagram.com/p/BxZm42RB6Wv/"><img src="/imagenes/post5.png" alt=""></a>
+                                <div class="segundaLineaInstagram">
+                                    <p><strong>aviveterinaria</strong>El sábado tuvimos una gran jornada de desparasitación gratuita 😄</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contenedorCajaInstagramMovil">
+                            <div class="cajaInstagramMovile">
+                                <div class="primerLineaInstagram">
+                                    <img src="/imagenes/imgPerfil.png" alt="">
+                                    <span>aviveterinaria</span>
+                                </div>
+                                <a href="https://www.instagram.com/p/BxXpkkZBmcw/"><img src="/imagenes/post6.png" alt=""></a>
+                                <div class="segundaLineaInstagram">
+                                    <p><strong>aviveterinaria</strong>¡Otto y Bella les desean un excelente domingo! ✨❤️</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contenedorCajaInstagramMovil">
+                            <div class="cajaInstagramMovile">
+                                <div class="primerLineaInstagram">
+                                    <img src="/imagenes/imgPerfil.png" alt="">
+                                    <span>aviveterinaria</span>
+                                </div>
+                                <a href="https://www.instagram.com/p/BxUpsmJhp8O/"><img src="/imagenes/post7.png" alt=""></a>
+                                <div class="segundaLineaInstagram">
+                                    <p><strong>aviveterinaria</strong> Hoy! 👉🏼 Llega una nueva jornada de desparasitación</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contenedorCajaInstagramMovil">
+                            <div class="cajaInstagramMovile">
+                                <div class="primerLineaInstagram">
+                                    <img src="/imagenes/imgPerfil.png" alt="">
+                                    <span>aviveterinaria</span>
+                                </div>
+                                <a href="https://www.instagram.com/p/BxNCSXaBRSy/"><img src="/imagenes/post8.png" alt=""></a>
+                                <div class="segundaLineaInstagram">
+                                    <p><strong>aviveterinaria</strong> ¿Cómo que recién es miércoles? 😧</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contenedorCajaInstagramMovil">
+                            <div class="cajaInstagramMovile">
+                                <div class="primerLineaInstagram">
+                                    <img src="/imagenes/imgPerfil.png" alt="">
+                                    <span>aviveterinaria</span>
+                                </div>
+                                <a href="https://www.instagram.com/p/BxKMIcjhuXn/"><img src="/imagenes/post9.png" alt=""></a>
+                                <div class="segundaLineaInstagram">
+                                    <p><strong>aviveterinaria</strong> ✨ Pedir turnos en nuestra peluquería es súper fácil 👉🏼 </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contenedorCajaInstagramMovil">
+                            <div class="cajaInstagramMovile">
+                                <div class="primerLineaInstagram">
+                                    <img src="/imagenes/imgPerfil.png" alt="">
+                                    <span>aviveterinaria</span>
+                                </div>
+                                <a href="https://www.instagram.com/p/BxHmKmRBnmj/"><img src="/imagenes/post10.png" alt=""></a>
+                                <div class="segundaLineaInstagram">
+                                    <p><strong>aviveterinaria</strong> Cuando viene Leia a visitarnos 😍</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contenedorCajaInstagramMovil">
+                            <div class="cajaInstagramMovile">
+                                <div class="primerLineaInstagram">
+                                    <img src="/imagenes/imgPerfil.png" alt="">
+                                    <span>aviveterinaria</span>
+                                </div>
+                                <a href="https://www.instagram.com/p/BxFPRM-ht81/"><img src="/imagenes/post11.png" alt=""></a>
+                                <div class="segundaLineaInstagram">
+                                    <p><strong>aviveterinaria</strong> Chloé y Kuryaki les desean un excelente domingo 👉🏼 </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contenedorCajaInstagramMovil">
+                            <div class="cajaInstagramMovile">
+                                <div class="primerLineaInstagram">
+                                    <img src="/imagenes/imgPerfil.png" alt="">
+                                    <span>aviveterinaria</span>
+                                </div>
+                                <a href="https://www.instagram.com/p/Bw2DhNDB125/"><img src="/imagenes/post12.png" alt=""></a>
+                                <div class="segundaLineaInstagram">
+                                    <p><strong>aviveterinaria</strong> ¡Muy feliz #DiaDelAnimal a todos los que nos hacen felices día a día! 😍</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contenedorCajaInstagramMovil">
+                            <div class="cajaInstagramMovile">
+                                <div class="primerLineaInstagram">
+                                    <img src="/imagenes/imgPerfil.png" alt="">
+                                    <span>aviveterinaria</span>
+                                </div>
+                                <a href="https://www.instagram.com/p/Bw0TwYqhQwS/"><img src="/imagenes/post13.png" alt=""></a>
+                                <div class="segundaLineaInstagram">
+                                    <p><strong>aviveterinaria</strong> ¿Ya te enteraste? 👉🏼 Festejamos la #SemanaDelAnimal con descuentos para tu mascota 🐱🐶</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contenedorCajaInstagramMovil">
+                            <div class="cajaInstagramMovile">
+                                    <div class="primerLineaInstagram">
+                                        <img src="/imagenes/imgPerfil.png" alt="">
+                                        <span>aviveterinaria</span>
+                                    </div>
+                                    <a href="https://www.instagram.com/p/BwnAkvCBDlF/"><img src="/imagenes/post14.png" alt=""></a>
+                                    <div class="segundaLineaInstagram">
+                                        <p><strong>aviveterinaria</strong> ¿Ya te enteraste? ¡Le sacamos la lengua a este martes! 🐶</p>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="contenedorCajaInstagramMovil">
+                            <div class="cajaInstagramMovile">
+                                <div class="primerLineaInstagram">
+                                    <img src="/imagenes/imgPerfil.png" alt="">
+                                    <span>aviveterinaria</span>
+                                </div>
+                                <a href="https://www.instagram.com/p/BwCUDx6h2Eh/"><img src="/imagenes/post15.png" alt=""></a>
+                                <div class="segundaLineaInstagram">
+                                    <p><strong>aviveterinaria</strong> Muy buen Lunes!🌟 Ya abrimos, los esperamos como siempre...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <section class="instagramEscritorio">
+                    <h2>Seguinos en Instagram</h2>
+                    <article class="contenedorInstagramMovil">
+                        <div class="botoneraInstagramMovil">
+                            <button id="btnInIzqG"><i class="fas fa-chevron-circle-left"></i></button>
+                            <button id="btnInDerG"><i class="fas fa-chevron-circle-right"></i></button>
+                        </div>
+                        <div class="subContenedorInstagramMovil subContenedorInstagramEscritorio">
+                            <div class="cajaDeTresInstagram">
+                                <div class="contenedorCajaInstagramMovil">
+                                    <div class="cajaInstagramMovile">
+                                        <div class="primerLineaInstagram">
+                                            <img src="/imagenes/imgPerfil.png" alt="">
+                                            <span>aviveterinaria</span>
+                                        </div>
+                                        <a href="https://www.instagram.com/p/BqZjl8pBFoB/"><img src="/imagenes/post1.png" alt=""></a>
+                                        <div class="segundaLineaInstagram">
+                                            <p><strong>aviveterinaria</strong>👉🏻 Se terminó el finde largo y nos volvemos a reencontrar 😄</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="contenedorCajaInstagramMovil">
+                                    <div class="cajaInstagramMovile">
+                                        <div class="primerLineaInstagram">
+                                            <img src="/imagenes/imgPerfil.png" alt="">
+                                            <span>aviveterinaria</span>
+                                        </div>
+                                        <a href="https://www.instagram.com/p/BtV2XxhBSqi/"><img src="/imagenes/post2.png" alt=""></a>
+                                        <div class="segundaLineaInstagram">
+                                            <p><strong>aviveterinaria</strong> Manchita cuando nos visita 🐱❤️</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="contenedorCajaInstagramMovil">
+                                    <div class="cajaInstagramMovile">
+                                        <div class="primerLineaInstagram">
+                                            <img src="/imagenes/imgPerfil.png" alt="">
+                                            <span>aviveterinaria</span>
+                                        </div>
+                                        <a href="https://www.instagram.com/p/BjHpFI2l4S_/"><img src="/imagenes/post3.png" alt=""></a>
+                                        <div class="segundaLineaInstagram">
+                                            <p><strong>aviveterinaria</strong> ¡Esas visitas que nos hacen felices 
+                                                todos los días! 😍😍😍</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cajaDeTresInstagram">
+                                <div class="contenedorCajaInstagramMovil">
+                                    <div class="cajaInstagramMovile">
+                                        <div class="primerLineaInstagram">
+                                            <img src="/imagenes/imgPerfil.png" alt="">
+                                            <span>aviveterinaria</span>
+                                        </div>
+                                        <a href="https://www.instagram.com/p/BxfQRCwByiP/"><img src="/imagenes/post4.png" alt=""></a>
+                                        <div class="segundaLineaInstagram">
+                                            <p><strong>aviveterinaria</strong>¡Hoy vino Charly a visitarnos! 😻</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="contenedorCajaInstagramMovil">
+                                    <div class="cajaInstagramMovile">
+                                        <div class="primerLineaInstagram">
+                                            <img src="/imagenes/imgPerfil.png" alt="">
+                                            <span>aviveterinaria</span>
+                                        </div>
+                                        <a href="https://www.instagram.com/p/BxZm42RB6Wv/"><img src="/imagenes/post5.png" alt=""></a>
+                                        <div class="segundaLineaInstagram">
+                                            <p><strong>aviveterinaria</strong>El sábado tuvimos una gran jornada de desparasitación gratuita 😄</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="contenedorCajaInstagramMovil">
+                                    <div class="cajaInstagramMovile">
+                                        <div class="primerLineaInstagram">
+                                            <img src="/imagenes/imgPerfil.png" alt="">
+                                            <span>aviveterinaria</span>
+                                        </div>
+                                        <a href="https://www.instagram.com/p/BxXpkkZBmcw/"><img src="/imagenes/post6.png" alt=""></a>
+                                        <div class="segundaLineaInstagram">
+                                            <p><strong>aviveterinaria</strong>¡Otto y Bella les desean un excelente domingo! ✨❤️</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cajaDeTresInstagram">
+                                <div class="contenedorCajaInstagramMovil">
+                                    <div class="cajaInstagramMovile">
+                                        <div class="primerLineaInstagram">
+                                            <img src="/imagenes/imgPerfil.png" alt="">
+                                            <span>aviveterinaria</span>
+                                        </div>
+                                        <a href="https://www.instagram.com/p/BxUpsmJhp8O/"><img src="/imagenes/post7.png" alt=""></a>
+                                        <div class="segundaLineaInstagram">
+                                            <p><strong>aviveterinaria</strong> Hoy! 👉🏼 Llega una nueva jornada de desparasitación</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="contenedorCajaInstagramMovil">
+                                    <div class="cajaInstagramMovile">
+                                        <div class="primerLineaInstagram">
+                                            <img src="/imagenes/imgPerfil.png" alt="">
+                                            <span>aviveterinaria</span>
+                                        </div>
+                                        <a href="https://www.instagram.com/p/BxNCSXaBRSy/"><img src="/imagenes/post8.png" alt=""></a>
+                                        <div class="segundaLineaInstagram">
+                                            <p><strong>aviveterinaria</strong> ¿Cómo que recién es miércoles? 😧</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="contenedorCajaInstagramMovil">
+                                    <div class="cajaInstagramMovile">
+                                        <div class="primerLineaInstagram">
+                                            <img src="/imagenes/imgPerfil.png" alt="">
+                                            <span>aviveterinaria</span>
+                                        </div>
+                                        <a href="https://www.instagram.com/p/BxKMIcjhuXn/"><img src="/imagenes/post9.png" alt=""></a>
+                                        <div class="segundaLineaInstagram">
+                                            <p><strong>aviveterinaria</strong> ✨ Pedir turnos en nuestra peluquería es súper fácil 👉🏼 </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cajaDeTresInstagram">
+                                <div class="contenedorCajaInstagramMovil">
+                                    <div class="cajaInstagramMovile">
+                                        <div class="primerLineaInstagram">
+                                            <img src="/imagenes/imgPerfil.png" alt="">
+                                            <span>aviveterinaria</span>
+                                        </div>
+                                        <a href="https://www.instagram.com/p/BxHmKmRBnmj/"><img src="/imagenes/post10.png" alt=""></a>
+                                        <div class="segundaLineaInstagram">
+                                            <p><strong>aviveterinaria</strong> Cuando viene Leia a visitarnos 😍</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="contenedorCajaInstagramMovil">
+                                    <div class="cajaInstagramMovile">
+                                        <div class="primerLineaInstagram">
+                                            <img src="/imagenes/imgPerfil.png" alt="">
+                                            <span>aviveterinaria</span>
+                                        </div>
+                                        <a href="https://www.instagram.com/p/BxFPRM-ht81/"><img src="/imagenes/post11.png" alt=""></a>
+                                        <div class="segundaLineaInstagram">
+                                            <p><strong>aviveterinaria</strong> Chloé y Kuryaki les desean un excelente domingo 👉🏼 </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="contenedorCajaInstagramMovil">
+                                    <div class="cajaInstagramMovile">
+                                        <div class="primerLineaInstagram">
+                                            <img src="/imagenes/imgPerfil.png" alt="">
+                                            <span>aviveterinaria</span>
+                                        </div>
+                                        <a href="https://www.instagram.com/p/Bw2DhNDB125/"><img src="/imagenes/post12.png" alt=""></a>
+                                        <div class="segundaLineaInstagram">
+                                            <p><strong>aviveterinaria</strong> ¡Muy feliz #DiaDelAnimal a todos los que nos hacen felices día a día! 😍</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cajaDeTresInstagram">
+                                <div class="contenedorCajaInstagramMovil">
+                                    <div class="cajaInstagramMovile">
+                                        <div class="primerLineaInstagram">
+                                            <img src="/imagenes/imgPerfil.png" alt="">
+                                            <span>aviveterinaria</span>
+                                        </div>
+                                        <a href="https://www.instagram.com/p/Bw0TwYqhQwS/"><img src="/imagenes/post13.png" alt=""></a>
+                                        <div class="segundaLineaInstagram">
+                                            <p><strong>aviveterinaria</strong> ¿Ya te enteraste? 👉🏼 Festejamos la #SemanaDelAnimal con descuentos para tu mascota 🐱🐶</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="contenedorCajaInstagramMovil">
+                                    <div class="cajaInstagramMovile">
+                                            <div class="primerLineaInstagram">
+                                                <img src="/imagenes/imgPerfil.png" alt="">
+                                                <span>aviveterinaria</span>
+                                            </div>
+                                            <a href="https://www.instagram.com/p/BwnAkvCBDlF/"><img src="/imagenes/post14.png" alt=""></a>
+                                            <div class="segundaLineaInstagram">
+                                                <p><strong>aviveterinaria</strong> ¿Ya te enteraste? ¡Le sacamos la lengua a este martes! 🐶</p>
+                                            </div>
+                                    </div>
+                                </div>
+                                <div class="contenedorCajaInstagramMovil">
+                                    <div class="cajaInstagramMovile">
+                                        <div class="primerLineaInstagram">
+                                            <img src="/imagenes/imgPerfil.png" alt="">
+                                            <span>aviveterinaria</span>
+                                        </div>
+                                        <a href="https://www.instagram.com/p/BwCUDx6h2Eh/"><img src="/imagenes/post15.png" alt=""></a>
+                                        <div class="segundaLineaInstagram">
+                                            <p><strong>aviveterinaria</strong> Muy buen Lunes!🌟 Ya abrimos, los esperamos como siempre...</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+            </section>
+
+            <section class="youtubeMovil" id="youtubeM">
+                    <h2>Videos</h2>
+                    <span id="anclaYoutubeM"></span>
+                    <article class="contenedorYoutubeMovil">
+                        <div class="botoneraYoutubeMovil">
+                            <button id="btnYtIzq"><i class="fas fa-chevron-circle-left"></i></button>
+                            <button id="btnYtDer"><i class="fas fa-chevron-circle-right"></i></button>
+                        </div>
+                        <div class="subContenedorYoutubeMovil">
+                            <div class="contenedorCajaYoutubeMovil" id="clickVideo1">
+                                <div class="cajaYoutubeMovile">
+                                    <img src="/imagenes/video1.png" alt="">
+                                    <div class="primerLineaYoutube">
+                                        <h3>AVI Veterinaria Tips</h3><span>00:58</span>
+                                    </div>
+                                    <div class="segundaLineaYoutube">
+                                        <p>¿Pretal o collar? hoy hablamos de 
+                                            que es lo mejor para nuestras mascotas. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contenedorCajaYoutubeMovil" id="clickVideo2">
+                                <div class="cajaYoutubeMovile">
+                                    <img src="/imagenes/video2.png" alt="">
+                                    <div class="primerLineaYoutube">
+                                        <h3>AVI Veterinaria Tips</h3><span>00:55</span>
+                                    </div>
+                                    <div class="segundaLineaYoutube">
+                                        <p>¿Cómo nos podemos dar cuenta que 
+                                            nuestra mascota tiene dolor?
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contenedorCajaYoutubeMovil" id="clickVideo3">
+                                <div class="cajaYoutubeMovile">
+                                    <img src="/imagenes/video3.png" alt="">
+                                    <div class="primerLineaYoutube">
+                                        <h3>AVI Veterinaria Tips</h3><span>01:00</span>
+                                    </div>
+                                    <div class="segundaLineaYoutube">
+                                        <p>Hoy hablamos de como incorporar una
+                                            nueva mascota a nuestra familia.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contenedorCajaYoutubeMovil" id="clickVideo4">
+                                <div class="cajaYoutubeMovile">
+                                    <img src="/imagenes/video4.jpg" alt="">
+                                    <div class="primerLineaYoutube">
+                                        <h3>AVI Veterinaria Tips</h3><span>00:59</span>
+                                    </div>
+                                    <div class="segundaLineaYoutube">
+                                        <p>¿Qué cuadro puede tener un gatito
+                                            rescatado de la calle?
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contenedorCajaYoutubeMovil" id="clickVideo5">
+                                <div class="cajaYoutubeMovile">
+                                    <img src="/imagenes/video5.jpg" alt="">
+                                    <div class="primerLineaYoutube">
+                                        <h3>AVI Veterinaria Tips</h3><span>00:56</span>
+                                    </div>
+                                    <div class="segundaLineaYoutube">
+                                        <p>¿cómo saber si mi perro o gato tienen
+                                            una infección urinaria?
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contenedorCajaYoutubeMovil" id="clickVideo6">
+                                <div class="cajaYoutubeMovile">
+                                    <img src="/imagenes/video6.jpg" alt="">
+                                    <div class="primerLineaYoutube">
+                                        <h3>AVI Veterinaria Tips</h3><span>00:58</span>
+                                    </div>
+                                    <div class="segundaLineaYoutube">
+                                        <p>¿Cómo limpiar las lagañas de 
+                                            nuestras mascotas?
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contenedorCajaYoutubeMovil" id="clickVideo7">
+                                <div class="cajaYoutubeMovile">
+                                    <img src="/imagenes/video7.jpg" alt="">
+                                    <div class="primerLineaYoutube">
+                                        <h3>AVI Veterinaria Tips</h3><span>00:59</span>
+                                    </div>
+                                    <div class="segundaLineaYoutube">
+                                        <p>¿Pueden nuestras mascotas tener 
+                                            hipertiroidismo?</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contenedorCajaYoutubeMovil" id="clickVideo8">
+                                <div class="cajaYoutubeMovile">
+                                    <img src="/imagenes/video8.jpg" alt="">
+                                    <div class="primerLineaYoutube">
+                                        <h3>AVI Veterinaria Tips</h3><span>00:59</span>
+                                    </div>
+                                    <div class="segundaLineaYoutube">
+                                        <p>
+                                        ¿es normal que mi perro tenga tos? 
+                                        En este video te respondemos!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="contenedorCajaYoutubeMovil" id="clickVideo9">
+                                <div class="cajaYoutubeMovile">
+                                    <img src="/imagenes/video9.jpg" alt="">
+                                    <div class="primerLineaYoutube">
+                                        <h3>AVI Veterinaria Tips</h3><span>01:00</span>
+                                    </div>
+                                    <div class="segundaLineaYoutube">
+                                        <p>¿Por qué mi mascota tiene caspa? 
+                                            Toda la info en nuestro video.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contenedorCajaYoutubeMovil" id="clickVideo10">
+                                <div class="cajaYoutubeMovile">
+                                    <img src="/imagenes/video10.jpg" alt="">
+                                    <div class="primerLineaYoutube">
+                                        <h3>AVI Veterinaria Tips</h3><span>00:37</span>
+                                    </div>
+                                    <div class="segundaLineaYoutube">
+                                        <p>
+                                        ¿Cómo le enseño a mi cachorro a donde 
+                                        hacer sus necesidades? 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contenedorCajaYoutubeMovil" id="clickVideo11">
+                                <div class="cajaYoutubeMovile">
+                                    <img src="/imagenes/video11.jpg" alt="">
+                                    <div class="primerLineaYoutube">
+                                        <h3>AVI Veterinaria Tips</h3><span>00:25</span>
+                                    </div>
+                                    <div class="segundaLineaYoutube">
+                                        <p>¿Qué hacer cuando mi cachorro no 
+                                            para de morderme? </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contenedorCajaYoutubeMovil" id="clickVideo12">
+                                <div class="cajaYoutubeMovile">
+                                    <img src="/imagenes/video12.jpg" alt="">
+                                    <div class="primerLineaYoutube">
+                                        <h3>AVI Veterinaria Tips</h3><span>00:26</span>
+                                    </div>
+                                    <div class="segundaLineaYoutube">
+                                        <p>¿Por qué es conveniente castrar a 
+                                            mi gato o perro?</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="contenedorCajaYoutubeMovil" id="clickVideo13">
+                                <div class="cajaYoutubeMovile">
+                                    <img src="/imagenes/video13.jpg" alt="">
+                                    <div class="primerLineaYoutube">
+                                        <h3>AVI Veterinaria Tips</h3><span>00:27</span>
+                                    </div>
+                                    <div class="segundaLineaYoutube">
+                                        <p>¿Es posible que mi mascota me pueda 
+                                            transmitir enfermedades?</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contenedorCajaYoutubeMovil" id="clickVideo14">
+                                <div class="cajaYoutubeMovile">
+                                    <img src="/imagenes/video14.jpg" alt="">
+                                    <div class="primerLineaYoutube">
+                                        <h3>AVI Veterinaria Tips</h3><span>00:28</span>
+                                    </div>
+                                    <div class="segundaLineaYoutube">
+                                        <p>Hoy hablamos sobre lo importante de 
+                                            la vacunación de mis mascotas.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contenedorCajaYoutubeMovil" id="clickVideo15">
+                                <div class="cajaYoutubeMovile">
+                                    <img src="/imagenes/video15.jpg" alt="">
+                                    <div class="primerLineaYoutube">
+                                        <h3>AVI Veterinaria Tips</h3><span>00:29</span>
+                                    </div>
+                                    <div class="segundaLineaYoutube">
+                                        <p>Llego un nuevo integrante a la familia 
+                                            ¿Qué hacemos la primer noche? </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contenedorCajaYoutubeMovil" id="clickVideo16">
+                                <div class="cajaYoutubeMovile">
+                                    <img src="/imagenes/video16.jpg" alt="">
+                                    <div class="primerLineaYoutube">
+                                        <h3>AVI Veterinaria Tips</h3><span>00:19</span>
+                                    </div>
+                                    <div class="segundaLineaYoutube">
+                                        <p>Mi mascota no para de rascarse ¿Qué debo hacer en esta situación?</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="contenedorCajaYoutubeMovil" id="clickVideo17">
+                                <div class="cajaYoutubeMovile">
+                                    <img src="/imagenes/video17.jpg" alt="">
+                                    <div class="primerLineaYoutube">
+                                        <h3>AVI Veterinaria Tips</h3><span>00:25</span>
+                                    </div>
+                                    <div class="segundaLineaYoutube">
+                                        <p>¿Qué debemos hacer cuando nuestro gato araña los muebles de la casa?</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contenedorCajaYoutubeMovil" id="clickVideo18">
+                                <div class="cajaYoutubeMovile">
+                                    <img src="/imagenes/video18.jpg" alt="">
+                                    <div class="primerLineaYoutube">
+                                        <h3>AVI Veterinaria Tips</h3><span>00:26</span>
+                                    </div>
+                                    <div class="segundaLineaYoutube">
+                                        <p>Mi mascota tiene problemas al caminar ¿Qué debo hacer en esta situación?</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contenedorCajaYoutubeMovil" id="clickVideo19">
+                                <div class="cajaYoutubeMovile">
+                                    <img src="/imagenes/video19.jpg" alt="">
+                                    <div class="primerLineaYoutube">
+                                        <h3>AVI Veterinaria Tips</h3><span>00:28</span>
+                                    </div>
+                                    <div class="segundaLineaYoutube">
+                                        <p>¿Qué hacer si mi mascota tiene vómitos? Te respondemos en nuestro video.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contenedorCajaYoutubeMovil" id="clickVideo20">
+                                <div class="cajaYoutubeMovile">
+                                    <img src="/imagenes/video20.jpg" alt="">
+                                    <div class="primerLineaYoutube">
+                                        <h3>AVI Veterinaria Tips</h3><span>00:24</span>
+                                    </div>
+                                    <div class="segundaLineaYoutube">
+                                        <p>Sumamos un nuevo integrante a la familia ¿puedo bañar a mi cachorro?</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </article>
+            </section>
+
+            <section class="youtubeEscritorio">
+                    <h2>Videos</h2>
+                    <span id="anclaYoutubeE"></span>
+                    <article class="contenedorYoutubeMovil">
+                        <div class="botoneraYoutubeMovil">
+                            <button><span id="circle1" class="circleActive"></span></button>
+                            <button><span id="circle2"></span></button>
+                            <button><span id="circle3"></span></button>
+                            <button><span id="circle4"></span></button>
+                            <button><span id="circle5"></span></button>
+                        </div>
+                        <div class="subContenedorYoutubeMovil" id="videoEscritorio">
+                            <div class="cajaDeCuatroYoutube">
+                            <div class="contenedorCajaYoutubeMovil" id="clickVideoE1">
+                                <div class="cajaYoutubeMovile">
+                                    <div class="contHoverVideo"><span></span><img src="/imagenes/video1.png" alt=""></div>
+                                    <div class="primerLineaYoutube">
+                                        <h3>AVI Veterinaria Tips</h3><span>00:58</span>
+                                    </div>
+                                    <div class="segundaLineaYoutube">
+                                        <p>¿Pretal o collar? hoy hablamos de 
+                                            que es lo mejor para nuestras mascotas. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contenedorCajaYoutubeMovil" id="clickVideoE2">
+                                <div class="cajaYoutubeMovile">
+                                    <div class="contHoverVideo"><span></span><img src="/imagenes/video2.png" alt=""></div>
+                                    <div class="primerLineaYoutube">
+                                        <h3>AVI Veterinaria Tips</h3><span>00:55</span>
+                                    </div>
+                                    <div class="segundaLineaYoutube">
+                                        <p>¿Cómo nos podemos dar cuenta que 
+                                            nuestra mascota tiene dolor?
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contenedorCajaYoutubeMovil" id="clickVideoE3">
+                                <div class="cajaYoutubeMovile">
+                                    <div class="contHoverVideo"><span></span><img src="/imagenes/video3.png" alt=""></div>
+                                    <div class="primerLineaYoutube">
+                                        <h3>AVI Veterinaria Tips</h3><span>01:00</span>
+                                    </div>
+                                    <div class="segundaLineaYoutube">
+                                        <p>Hoy hablamos de como incorporar una
+                                            nueva mascota a nuestra familia.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contenedorCajaYoutubeMovil" id="clickVideoE4">
+                                <div class="cajaYoutubeMovile">
+                                    <div class="contHoverVideo"><span></span><img src="/imagenes/video4.jpg" alt=""></div>
+                                    <div class="primerLineaYoutube">
+                                        <h3>AVI Veterinaria Tips</h3><span>00:59</span>
+                                    </div>
+                                    <div class="segundaLineaYoutube">
+                                        <p>¿Qué cuadro puede tener un gatito
+                                            rescatado de la calle?
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+
+                            <div class="cajaDeCuatroYoutube">
+                            <div class="contenedorCajaYoutubeMovil" id="clickVideoE5">
+                                <div class="cajaYoutubeMovile">
+                                    <div class="contHoverVideo"><span></span><img src="/imagenes/video5.jpg" alt=""></div>
+                                    <div class="primerLineaYoutube">
+                                        <h3>AVI Veterinaria Tips</h3><span>00:56</span>
+                                    </div>
+                                    <div class="segundaLineaYoutube">
+                                        <p>¿cómo saber si mi perro o gato tienen
+                                            una infección urinaria?
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contenedorCajaYoutubeMovil" id="clickVideoE6">
+                                <div class="cajaYoutubeMovile">
+                                    <div class="contHoverVideo"><span></span><img src="/imagenes/video6.jpg" alt=""></div>
+                                    <div class="primerLineaYoutube">
+                                        <h3>AVI Veterinaria Tips</h3><span>00:58</span>
+                                    </div>
+                                    <div class="segundaLineaYoutube">
+                                        <p>¿Cómo limpiar las lagañas de 
+                                            nuestras mascotas?
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contenedorCajaYoutubeMovil" id="clickVideoE7">
+                                <div class="cajaYoutubeMovile">
+                                    <div class="contHoverVideo"><span></span><img src="/imagenes/video7.jpg" alt=""></div>
+                                    <div class="primerLineaYoutube">
+                                        <h3>AVI Veterinaria Tips</h3><span>00:59</span>
+                                    </div>
+                                    <div class="segundaLineaYoutube">
+                                        <p>¿Pueden nuestras mascotas tener 
+                                            hipertiroidismo?</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contenedorCajaYoutubeMovil" id="clickVideoE8">
+                                <div class="cajaYoutubeMovile">
+                                    <div class="contHoverVideo"><span></span><img src="/imagenes/video8.jpg" alt=""></div>
+                                    <div class="primerLineaYoutube">
+                                        <h3>AVI Veterinaria Tips</h3><span>00:59</span>
+                                    </div>
+                                    <div class="segundaLineaYoutube">
+                                        <p>
+                                        ¿es normal que mi perro tenga tos? 
+                                        En este video te respondemos!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+
+                            <div class="cajaDeCuatroYoutube">
+                            <div class="contenedorCajaYoutubeMovil" id="clickVideoE9">
+                                <div class="cajaYoutubeMovile">
+                                    <div class="contHoverVideo"><span></span><img src="/imagenes/video9.jpg" alt=""></div>
+                                    <div class="primerLineaYoutube">
+                                        <h3>AVI Veterinaria Tips</h3><span>01:00</span>
+                                    </div>
+                                    <div class="segundaLineaYoutube">
+                                        <p>¿Por qué mi mascota tiene caspa? 
+                                            Toda la info en nuestro video.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contenedorCajaYoutubeMovil" id="clickVideoE10">
+                                <div class="cajaYoutubeMovile">
+                                    <div class="contHoverVideo"><span></span><img src="/imagenes/video10.jpg" alt=""></div>
+                                    <div class="primerLineaYoutube">
+                                        <h3>AVI Veterinaria Tips</h3><span>00:37</span>
+                                    </div>
+                                    <div class="segundaLineaYoutube">
+                                        <p>
+                                        ¿Cómo le enseño a mi cachorro a donde 
+                                        hacer sus necesidades? 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contenedorCajaYoutubeMovil" id="clickVideoE11">
+                                <div class="cajaYoutubeMovile">
+                                    <div class="contHoverVideo"><span></span><img src="/imagenes/video11.jpg" alt=""></div>
+                                    <div class="primerLineaYoutube">
+                                        <h3>AVI Veterinaria Tips</h3><span>00:25</span>
+                                    </div>
+                                    <div class="segundaLineaYoutube">
+                                        <p>¿Qué hacer cuando mi cachorro no 
+                                            para de morderme? </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contenedorCajaYoutubeMovil" id="clickVideoE12">
+                                <div class="cajaYoutubeMovile">
+                                    <div class="contHoverVideo"><span></span><img src="/imagenes/video12.jpg" alt=""></div>
+                                    <div class="primerLineaYoutube">
+                                        <h3>AVI Veterinaria Tips</h3><span>00:26</span>
+                                    </div>
+                                    <div class="segundaLineaYoutube">
+                                        <p>¿Por qué es conveniente castrar a 
+                                            mi gato o perro?</p>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+
+                            <div class="cajaDeCuatroYoutube">
+                            <div class="contenedorCajaYoutubeMovil" id="clickVideoE13">
+                                <div class="cajaYoutubeMovile">
+                                    <div class="contHoverVideo"><span></span><img src="/imagenes/video13.jpg" alt=""></div>
+                                    <div class="primerLineaYoutube">
+                                        <h3>AVI Veterinaria Tips</h3><span>00:27</span>
+                                    </div>
+                                    <div class="segundaLineaYoutube">
+                                        <p>¿Es posible que mi mascota me pueda 
+                                            transmitir enfermedades?</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contenedorCajaYoutubeMovil" id="clickVideoE14">
+                                <div class="cajaYoutubeMovile">
+                                    <div class="contHoverVideo"><span></span><img src="/imagenes/video14.jpg" alt=""></div>
+                                    <div class="primerLineaYoutube">
+                                        <h3>AVI Veterinaria Tips</h3><span>00:28</span>
+                                    </div>
+                                    <div class="segundaLineaYoutube">
+                                        <p>Hoy hablamos sobre lo importante de 
+                                            la vacunación de mis mascotas.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contenedorCajaYoutubeMovil" id="clickVideoE15">
+                                <div class="cajaYoutubeMovile">
+                                    <div class="contHoverVideo"><span></span><img src="/imagenes/video15.jpg" alt=""></div>
+                                    <div class="primerLineaYoutube">
+                                        <h3>AVI Veterinaria Tips</h3><span>00:29</span>
+                                    </div>
+                                    <div class="segundaLineaYoutube">
+                                        <p>Llego un nuevo integrante a la familia 
+                                            ¿Qué hacemos la primer noche? </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contenedorCajaYoutubeMovil" id="clickVideoE16">
+                                <div class="cajaYoutubeMovile">
+                                    <div class="contHoverVideo"><span></span><img src="/imagenes/video16.jpg" alt=""></div>
+                                    <div class="primerLineaYoutube">
+                                        <h3>AVI Veterinaria Tips</h3><span>00:19</span>
+                                    </div>
+                                    <div class="segundaLineaYoutube">
+                                        <p>Mi mascota no para de rascarse ¿Qué debo hacer en esta situación?</p>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+
+                            <div class="cajaDeCuatroYoutube">
+                            <div class="contenedorCajaYoutubeMovil" id="clickVideoE17">
+                                <div class="cajaYoutubeMovile">
+                                    <div class="contHoverVideo"><span></span><img src="/imagenes/video17.jpg" alt=""></div>
+                                    <div class="primerLineaYoutube">
+                                        <h3>AVI Veterinaria Tips</h3><span>00:25</span>
+                                    </div>
+                                    <div class="segundaLineaYoutube">
+                                        <p>¿Qué debemos hacer cuando nuestro gato araña los muebles de la casa?</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contenedorCajaYoutubeMovil" id="clickVideoE18">
+                                <div class="cajaYoutubeMovile">
+                                    <div class="contHoverVideo"><span></span><img src="/imagenes/video18.jpg" alt=""></div>
+                                    <div class="primerLineaYoutube">
+                                        <h3>AVI Veterinaria Tips</h3><span>00:26</span>
+                                    </div>
+                                    <div class="segundaLineaYoutube">
+                                        <p>Mi mascota tiene problemas al caminar ¿Qué debo hacer en esta situación?</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contenedorCajaYoutubeMovil" id="clickVideoE19">
+                                <div class="cajaYoutubeMovile">
+                                    <div class="contHoverVideo"><span></span><img src="/imagenes/video19.jpg" alt=""></div>
+                                    <div class="primerLineaYoutube">
+                                        <h3>AVI Veterinaria Tips</h3><span>00:28</span>
+                                    </div>
+                                    <div class="segundaLineaYoutube">
+                                        <p>¿Qué hacer si mi mascota tiene vómitos? Te respondemos en nuestro video.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contenedorCajaYoutubeMovil" id="clickVideoE20">
+                                <div class="cajaYoutubeMovile">
+                                    <div class="contHoverVideo"><span></span><img src="/imagenes/video20.jpg" alt=""></div>
+                                    <div class="primerLineaYoutube">
+                                        <h3>AVI Veterinaria Tips</h3><span>00:24</span>
+                                    </div>
+                                    <div class="segundaLineaYoutube">
+                                        <p>Sumamos un nuevo integrante a la familia ¿puedo bañar a mi cachorro?</p>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+
+                        </div>
+                    </article>
+            </section>
+
+            <section class="mapa">
+                <article class="contenedorMapa mapaTelefono">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13144.897336193275!2d-58.471645!3d-34.547875!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2510c0339760703!2sAvi+Atenci%C3%B3n+Integral+Veterinaria!5e0!3m2!1ses!2sar!4v1558001238418!5m2!1ses!2sar" width="100%" height="240px" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </article>
+            </section>
+            <section class="datos">
+                <article class="subContenedorDatos">
+                    <div class="cajaDato">
+                        <div class="imagenDatos">
+                            <span><i class="fas fa-map-marker-alt"></i></span>
+                        </div>
+                        <div class="textoDato">
+                            <h3>Direccion</h3>
+                            <p>Amenabar 3886, Núñez, C.A.B.A. </p>
+                        </div>
+                    </div>
+                    <div class="cajaDato">
+                        <div class="imagenDatos">
+                            <span><i class="far fa-clock"></i></span>
+                        </div>
+                        <div class="textoDato">
+                            <h3>Horario</h3>
+                            <p>Lunes a Viernes<br>
+                            9:00 a 13:00 hs - 16:00 a 20:00 hs.<br>
+                            Sábados de 10:00 a 18:00 hs</p>
+                        </div>
+                    </div>
+                    <div class="cajaDato">
+                        <div class="imagenDatos">
+                            <span><i class="far fa-envelope"></i></span>
+                        </div>
+                        <div class="textoDato">
+                            <h3>Email</h3>
+                            <p>info@aviveterinaria.com.ar</p>
+                        </div>
+                    </div>
+                    <div class="cajaDato">
+                        <div class="imagenDatos">
+                            <span><i class="fas fa-phone"></i></span>
+                        </div>
+                        <div class="textoDato">
+                            <h3>Telefono</h3>
+                            <p>4703-2634</p>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <section class="contactoTestimonios" id="contacto">
+                <span id="anclaContacto"></span>
+                <article class="testimonios">
+                    <div class="botoneraTestimonios">
+                        <button id="btnIzqTes"><i class="fas fa-chevron-circle-left"></i></button>
+                        <button id="btnDerTes"><i class="fas fa-chevron-circle-right"></i></button>
+                    </div>
+                    <div class="subContenedorTestimonios">
+                        <div class="cajaTestimonio">
+                            <div class="testimonio">
+                                <img src="/imagenes/testimonio1.png" alt="">
+                                <h3>Candela Rodriguez</h3>
+                                <p>La mejor veterinaria lejos! Dra. Laura la mejor.  
+                                Atiendo a todos mis gatitos con ella y siempre muy amorosa 
+                                y comprometida con los animales. Precios accesibles.</p>
+                            </div>
+                        </div>
+                        <div class="cajaTestimonio">
+                            <div class="testimonio">
+                                <img src="/imagenes/testimonio2.png" alt="">
+                                <h3>Edith Cavoli</h3>
+                                <p>Es excelente la atención del lugar y las doctoras de perros 
+                                    son muy dedicadas, se nota que les gusta lo que hacen, en 
+                                    especial Laura. .</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="contacto">
+                    <h2>Programar una cita</h2>
+                    <p>COMPLETA EL FORMULARIO Y NOS PONDREMOS EN CONTACTO</p>
+                    <form name="contactform" method="post" action="enviar.php">
+                        <input class="campoForm" type="text" placeholder="Nombre Completo" name="nombre">
+                        <input class="campoForm" type="text" placeholder="Email" name="email">
+                        <input class="campoForm" type="text" placeholder="Telefono" name="telefono">
+                        <input class="campoForm" type="text" placeholder="Asunto" name="asunto">
+                        <input id="btnEnviarForm" type="submit" value="Enviar">
+                    </form>
+                </article>
+            </section>
+
+            <footer>
+                <div class="contenedorFooter">
+                   <div class="primerLineaFooter">
+                       <div class="logoFooter">
+                        <h1><a href="index.html"><img src="/imagenes/aviLogo.svg" alt=""></a></h1>
+                       </div>
+                       <nav class="menuFooter">
+                            <ul>
+                                <li><a href="#anclaInicio">Inicio</a></li>
+                                <li><a href="#anclaServicios">Servicios</a></li>
+                                <li><a href="#anclaPetShop">Pet shop</a></li>
+                                <li><a href="#youtubeM">Videos</a></li>
+                                <li><a href="#anclaContacto">Contacto</a></li>
+                                <li><a id="phoneHeader" href="tel:4703-2634"><span class="iconoTelefono"><i class="fas fa-phone"></span></i><span>4703-2634</span></a></li>
+                            </ul>
+                       </nav>
+                   </div> 
+                   <hr>
+                   <div class="segundaLineaFooter">
+                    <p>2019 AVI Veterinaria. Todos los derechos reservados. Diseño y desarrollo hecho por  estudio Arlud.</p>
+                    <nav>
+                        <ul>
+                            <li><a href="https://www.facebook.com/AVI-Veterinaria-430545627046444/"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="https://www.instagram.com/aviveterinaria/"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="https://www.youtube.com/channel/UCc-FusgwCpNGDP_pDlA4JBA/featured"><i class="fab fa-youtube"></i></a></li>
+                        </ul>
+                    </nav>
+                   </div>
+                </div>
+            </footer>
+
+        </main>
+    </div>
+    <script>
+            /*window.onload = function(){
+                var contenedor = document.getElementById('preloader');
+                //contenedor.style.display = 'block';
+                contenedor.style.display = 'none';
+            }*/
+        </script>
+        <script src="/js/menu.js"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.6.3/js/all.js" integrity="sha384-EIHISlAOj4zgYieurP0SdoiBYfGJKkgWedPHH4jCzpCXLmzVsw1ouK59MuUtP4a1" crossorigin="anonymous"></script>
+        <script src="/js/slideServicios.js"></script>
+        <script src="/js/slidePetShop.js"></script>
+        <script src="/js/botoneraObjetivos.js"></script>
+        <script src="/js/botoneraFaq.js"></script>
+        <script src="/js/sliderInstagramCelular.js"></script>
+        <script src="/js/sliderYoutubeCelular.js"></script>
+        <script src="/js/sliderYoutubeEscritorio.js"></script>
+        <script src="/js/sliderInstagramEscritorio.js"></script>
+        <script src="/js/sliderTestimonios.js"></script>
+        <script src="/js/animaciones.js"></script>
+        <script src="/js/reproductor.js"></script>
+        <script src="/js/wow.min.js"></script>
+        <script src="/js/jquery-2.1.1.min.js"></script>
+</body>
+</html>

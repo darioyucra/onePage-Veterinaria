@@ -1,0 +1,321 @@
+
+@media screen and (min-width:120px){
+    .bannerLp{
+        /* background: red; */
+        width: 100%;
+        height: calc(100vh - 80px);
+        margin-top: 80px;
+        background-image: url('../imagenes/lps/peluqueria/rectangulo.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contenidoBannerLp{
+        width: 100%;
+        max-width: 400px;
+    }
+    .logoBaner{
+        width: 60%;
+        max-width: 513px;
+        margin: 0 auto;
+    }
+    .logoBaner img{
+        width: 100%;
+    }
+    .textBaner{
+        width: 90%;
+        /* background: red; */
+        margin: 0 auto;
+        color: #363636;
+        font-family: 'Quicksand';
+    }
+    .textBaner h2{
+        text-align: center;
+        font-size: 30px;
+        width: 100%;
+        /* background: blue; */
+        overflow: hidden;
+        margin-bottom: 12px;
+    }
+    .textBaner p{
+        text-align: center;
+        font-size: 16px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+    .textBaner .textDescuento{
+        color: #363636;
+        font-weight: 600;
+        font-size: 18px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        text-transform: initial;
+        /* background: #363636; */
+    }
+    .textDescuento strong{
+        color: #fff;
+        background: #363636;
+        padding: 2px 6px;
+        line-height: 26px;
+        width: 250px;
+        margin-top: 12px;
+    }
+    .textBaner a{
+        background-color: #AE84FD;
+        display: block;
+        width: 150px;
+        margin: 0 auto;
+        text-align: center;
+        text-decoration: none;
+        color: #fff;
+        font-family: 'Montserrat';
+        font-weight: 500;
+        font-size: 16px;
+        padding: 8px 0;
+        border-radius: 45px;
+    }
+
+    /*--------------ESTILOS PARA CONTENIDO SMARTPHONE--------------*/
+    .lpSection{
+        padding: 3em 0;
+        width: 90%;
+        max-width: 400px;
+        margin: 0 auto;
+        /* background: red; */
+    }
+    .lpServicio{
+        font-family: 'Quicksand';
+        margin-bottom: 26px;
+    }
+    .lpServicio h3{
+        color: #AE84FD;
+        font-size: 28px;
+        margin-bottom: 12px;
+        font-weight: 500;
+    }
+    .imgServiciosLp img{
+        width: 100%;
+    }
+
+
+    /*ESTILO PARA LOS PRECIOS SMARTPHONE*/
+    .preciosPeluqueria{
+        background-color: #F4F4F4;
+        width: 100%;
+        padding-top: 24px;
+        scroll-padding-bottom: 12px;
+    }
+    .contenedorPrecios{
+        width: 90%;
+        /* background: red; */
+        margin: 0 auto;
+        display: flex;
+        max-width: 330px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .precioServicio{
+        /* background: blue; */
+        width: 44vw;
+        height: 44vw;
+        margin-bottom: 12px;
+        max-width: 158px;
+        max-height: 158px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Quicksand';
+        /* border: 1px solid #AFAFAF; */
+        /* background-color: #fff; */
+    }
+    .precioServicio span{
+        font-size: 26px;
+        font-weight: 600;
+        margin-bottom: 2px;
+    }
+    .precioServicio hr{
+        background:#3CE2AD;
+        width: 26px;
+        height: 2px;
+        border: none;
+        margin-bottom: 6px;
+    }
+    .precioServicio h3{
+        font-size: 18px;
+        font-weight: 400;
+        color: #363636;
+        text-align: center;
+    }
+    .precioServicio p{
+        color: #363636;
+        font-size: 17px;
+        text-align: center;
+    }
+    .contactoFaq{
+        width: 170px;
+        height: 53px;
+        border-radius: 27px;
+    }
+    .contactoFaq a{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 16px;
+        font-size: 400;
+        font-family: 'Quicksand';
+        /* width: 100%; */
+        /* height: 100%; */
+        /* background: red; */
+    }
+    .contactoFaq a span{
+        font-size: 24px;
+    }
+}
+@media screen and (min-width:768px){
+    .bannerLp{
+        height: calc(40vh - 80px);
+        min-height: 329px;
+        max-height: 330px;
+    }
+    .lpSection{
+        max-width: initial;
+    }
+    .contenedorPrecios{
+        max-width: 700px;
+    }
+    .contenedorFaq{
+        max-width: initial;
+    }
+}
+@media screen and (min-width:1024px){
+    .bannerLp{
+        max-height: 450px;
+        min-height: 400px
+    }
+    .textBaner a{
+        transition-duration: 0.5s;
+    }
+    .textBaner a:hover{
+        background: #fff;
+        color: #AE84FD;
+    }
+    .lpSection{
+        max-width: 1364px;
+    }
+    .textoServiciosLp{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .lpServicio{
+        width: 45%;
+    }
+    .lpServicio p{
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+    .contenidoBannerLp{
+        max-width: initial;
+    }
+    .logoBaner{
+        max-width: 400px;
+    }
+    .textBaner h2{
+        font-size: 42px;
+    }
+    .textBaner p{
+        font-size: 14px;
+    }
+    .imgServiciosLp img{
+        max-width: 1364px;
+        margin-top: 5em;
+    }
+    .contactoFaq{
+        width: 170px;
+        height: 53px;
+        cursor: pointer;
+        transition-duration: 0.5s;
+        /* display: none!important; */
+    }
+    .contactoFaq:hover{
+        background: #AE84FD;
+    }
+}
+@media screen and (min-width:1920px){
+    .bannerLp{
+        min-height: 700px;
+    }
+    .logoBaner{
+        max-width: 513px;
+    }
+    .textoServiciosLp{
+        margin-bottom: 40px;
+    }
+    .textBaner h2{
+        font-size: 80px;
+    }
+    .textBaner p{
+        font-size: 20px;
+    }
+    .textBaner .textDescuento{
+        font-size: 24px;
+    }
+    .textDescuento strong{
+        width: 350px;
+        padding: 6px 4px;
+    }
+    .lpServicio{
+        max-width: 560px;
+    }
+    .lpServicio h3{
+        font-size: 51px;
+    }
+    .lpServicio p{
+        font-size: 16px;
+        margin-bottom: 16px;
+    }
+    .lpmServicio p strong{
+        font-size: 18px;
+    }
+    .imgServiciosLp{
+        display: flex;
+        justify-content: center;
+    }
+    .imgServiciosLp img{
+        max-width: 1289px;
+        margin: 0 auto;
+    }
+    
+    .preciosPeluqueria{
+        height: 328px;
+        display: flex;
+        align-items: center;
+    }
+    .contenedorPrecios{
+        max-width: 1150px;
+    }
+    .precioServicio span{
+        font-size: 50px;
+        font-weight: 600;
+    }
+    .contenedorFaq{
+        justify-content: space-between;
+    }
+    .contactoFaq{
+        width: 170px;
+        height: 53px;
+        cursor: pointer;
+        transition-duration: 0.5s;
+        /* display: none!important; */
+    }
+    .contactoFaq:hover{
+        background: #AE84FD;
+    }
+}
